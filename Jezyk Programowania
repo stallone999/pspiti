@@ -1,6 +1,6 @@
 # Języki Programowania - notatki z zajęć
 
-```C
+```C++
 int main() {
   printf("Witaj przedmiocie");
 }
