@@ -41,7 +41,7 @@
 
 ![Okładka Elementarza Falskiego](http://www.spodlady.com/zasoby/images/big/elementarz-falski201.jpg)
 
-***zadanie domowe: gh-pages howto sprawdzić jak to się robi...***
+# Zadanie domowe: "gh-pages howto" sprawdzić jak to się robi...
 
 **Koniec zajęć** Piątek 01.03.2013 godz. 19.10
 
