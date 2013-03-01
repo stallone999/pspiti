@@ -1,7 +1,9 @@
 # Języki Programowania - notatki z zajęć
 
 ```c
+
 int main() {
   printf("Witaj przedmiocie");
 }
+
 ```
