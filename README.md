@@ -26,6 +26,21 @@
 </body>
 </html>
 ```
+#### Pogrubienie, Kursywa, Hiperłącza oraz wstawanie obrazka
+
+**Ala** ma *kota*.
+[Elementarz Falskiego](http://www.spodlady.com/prod_506_Elementarz_Falskiego_-_Ala_ma_kota_Wyd._XXVII.html)  
+
+- - -
+
+***Ola*** ma *Stewarta*.
+
+***
+
+### Okładka Elementarza Falskiego
+
+![Okładka Elementarza Falskiego](http://www.spodlady.com/zasoby/images/big/elementarz-falski201.jpg)
+
 
 ## PSPI IT
 ======
