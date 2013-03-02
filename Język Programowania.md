@@ -114,7 +114,7 @@ int main () {
     fahr=lower; // za wartość zmiennej fahr podstaw lower
 while (fahr<=upper){             // while - dopuki
       celsius=5*(fahr-32)/9;  // w C++ działania wykonywane są od lewej do prawej np a+b*c/d to najpierw wykonane będzie mnożenie następnie dzielenie a dopiero wtedy dodawanie                              
-      printf("%.3lf\t %.3lf\n",fahr, celsius); // /t - tabulatora
+      printf("%.3lf\t %.3lf\n",fahr, celsius); // /t - tabulatora // %5.1lf - liczba ma być wyświetlona "wielkość pola.ilość miejsc po przecinku"
       fahr=fahr+step; // za fahr podstaw step
 } 
 getchar();
