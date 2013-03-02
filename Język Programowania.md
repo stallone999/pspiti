@@ -20,6 +20,8 @@ int main () {
 
 ## Ćwiczenie 2 - dodawanie, odejmowanie i dzielenie
 
+
+
 ```c
 #include <stdio.h>
 
@@ -138,5 +140,36 @@ int main () {
     getchar();
     return 0;
 }
+```
+***
+
+## Ćwiczenie 7 - Program do oblicznia n-tego wyrazu w ciagu Fibonacciego
+
+```c
+#include <stdio.h>
+main (){
+     int u1,u2,u3; // na kolejne wyrazy ciągu
+     int n; // numer wyrazu
+     int i; // licznik
+     
+     do {
+         printf("Podaj numer wyrazu (co najmniej 3): ");
+         scanf ("%d",&n);
+         }
+     while (n<3);
+     u2=u1=1;
+     i=2;
+     while (i++<n) {
+            u3=u1+u2;
+            u1=u2;
+            u2=u3;
+            }
+            //for (i=3; I<=n; i++; u1=u2;u2=u3) u3=u1+u2;
+            printf("Wyraz o numerze %d ma wartość %d", n,u3);
+           
+            getchar(); getchar();
+            return 0;
+     
+     }
 ```
 ***
