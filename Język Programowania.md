@@ -201,3 +201,44 @@ int main (){
 }
 ```
 ***
+
+#Ćwiczenie 9 - Zastosowanie petli FOR, WHILE, DO-WHILE.
+
+```c
+#include<stdio.h>
+
+int main() {
+    
+    int n;
+    
+                                        // pętla for
+    for (n=0;n<=23; n=n+1)
+    printf("%d\n",n);
+   
+    putchar ('\n');
+    getchar();
+                             // pętla while
+   
+   n=0;
+   while (n<=23) {
+         printf("%d\n",n);
+         n=n+1; 
+         }
+         putchar('\n');
+        
+        getchar();
+          
+ 
+                          //pętla DO - WHILE
+  n=0;
+  do {
+        printf("%d\n",n);
+        n=n+1;
+        }while (n<=23);
+                
+       getchar();
+       
+    return 0;
+}
+```
+***
