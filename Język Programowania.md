@@ -94,3 +94,31 @@ int main () {
 }
 ```
 ***
+
+**scanf** - wczytaj z klawiatury *(%fl- liczbe typu double)*, wszystkie zmienne poprzedzamy &
+Potęgowanie w języku c++ nie można pisać *daszka*, trzeba rozpisywać za pomocą * czyli mnożenia
+
+***
+
+## Ćwiczenie 6 - Przeliczanie stopni z Faranheita na Celsiusza.
+
+```c
+#include <stdio.h>
+
+int main () {
+    double fahr, celsius;
+    int lower, upper, step; 
+    lower=0;
+    upper=300; // instrukcje podstawienia 
+    step=20;
+    fahr=lower; // za wartość zmiennej fahr podstaw lower
+while (fahr<=upper){             // while - dopuki
+      celsius=5*(fahr-32)/9;  // w C++ działania wykonywane są od lewej do prawej np a+b*c/d to najpierw wykonane będzie mnożenie następnie dzielenie a dopiero wtedy dodawanie                              
+      printf("%.3lf\t %.3lf\n",fahr, celsius); // /t - tabulatora
+      fahr=fahr+step; // za fahr podstaw step
+} 
+getchar();
+return 0;
+}
+```
+***
