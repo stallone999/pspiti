@@ -147,29 +147,57 @@ int main () {
 
 ```c
 #include <stdio.h>
-main (){
+int main (){
      int u1,u2,u3; // na kolejne wyrazy ciągu
      int n; // numer wyrazu
      int i; // licznik
      
-     do {
+     do {                                                   // pętla DO-WHILE - pętla wykona się conajmniej jeden raz, jeżeli podamy n<3 pętla się powtózy i poprosi o ponowne podanie liczby
          printf("Podaj numer wyrazu (co najmniej 3): ");
          scanf ("%d",&n);
          }
      while (n<3);
-     u2=u1=1;
+     u2=u1=1;  // podstawienie 1 z u2 i u1
      i=2;
-     while (i++<n) {
+     while (i++<n) {  // i++ zwiększ o 1 po użyciu, jeżeli warunek był prawdziwy wykonujemy pętle
             u3=u1+u2;
             u1=u2;
             u2=u3;
-            }
-            //for (i=3; I<=n; i++; u1=u2;u2=u3) u3=u1+u2;
+           }
+//            for (i=3; I<=n; i++; u1=u2;u2=u3) u3=u1+u2;
             printf("Wyraz o numerze %d ma wartość %d", n,u3);
            
             getchar(); getchar();
             return 0;
      
      }
+           
+```
+***
+
+## Ćwiczenie 8 - Napisać program, który bedzie rysowal trójkat równoramienny zlożony z gwiazdek.
+
+```c
+#include <stdio.h>
+#define znak '*'  // znak wypełnienia
+
+int main (){
+    int lbwier ; // całkowita liczba wierszy
+    int lw; //licznik wierszy
+    int lodst; // liczba odstępów poprzedzających gwiazdkę
+    int j;
+    
+    printf("Ile wierszy?");
+    scanf("%d",&lbwier);
+    
+    for (lw=0; lw <lbwier; lw++) {
+        lodst=lbwier-lw-1;
+        for(j=0; j<lodst; j++) putchar(' ');
+        for(j=0; j<2*lw+1; j++) putchar(znak);
+        putchar ('\n');
+        }
+        getchar(); getchar();
+    return 0;
+}
 ```
 ***
