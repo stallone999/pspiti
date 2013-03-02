@@ -95,8 +95,8 @@ int main () {
 ```
 ***
 
-**scanf** - wczytaj z klawiatury *(%fl- liczbe typu double)*, wszystkie zmienne poprzedzamy &
-Potęgowanie w języku c++ nie można pisać *daszka*, trzeba rozpisywać za pomocą * czyli mnożenia
+**scanf** - wczytaj z klawiatury ***(%fl- liczbe typu double)***, wszystkie zmienne poprzedzamy *&*
+<br> Potęgowanie w języku c++ nie można pisać **daszka**, trzeba rozpisywać za pomocą * czyli mnożenia
 
 ***
 
