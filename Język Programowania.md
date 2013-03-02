@@ -122,3 +122,21 @@ return 0;
 }
 ```
 ***
+
+## Ćwiczenie 7 - Preprocesor DEFINE i petla FOR
+
+```c
+#include <stdio.h>
+#define LOWER 0  // define - stałe preprocesora języka C, nie stawiamy średników, pełni funkcję znajdź i zamień
+#define UPPER 300
+#define STEP 20
+
+int main () {
+    int fahr;
+    for (fahr=LOWER;fahr<=UPPER;fahr=fahr+STEP) // zmienne odzielamy średnikiem, za instrukcją FOR nie stawiamy średnika
+    printf("%3d %6.1lf\n",fahr,(5.0/9.0)*(fahr-32));
+    getchar();
+    return 0;
+}
+```
+***
