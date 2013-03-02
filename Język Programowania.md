@@ -179,7 +179,7 @@ int main (){
 
 ```c
 #include <stdio.h>
-#define znak '*'  // znak wypełnienia
+#define znak '*'  // znak wypełnienia umieszczamy w pojedynczym apostrofie
 
 int main (){
     int lbwier ; // całkowita liczba wierszy
@@ -192,9 +192,9 @@ int main (){
     
     for (lw=0; lw <lbwier; lw++) {
         lodst=lbwier-lw-1;
-        for(j=0; j<lodst; j++) putchar(' ');
-        for(j=0; j<2*lw+1; j++) putchar(znak);
-        putchar ('\n');
+        for(j=0; j<lodst; j++) putchar(' '); // funkcja która wyswietla na ekran pojedynczy znak
+        for(j=0; j<2*lw+1; j++) putchar(znak); // funkcja wywswietlajaca gwizadki
+        putchar ('\n'); // znak nowej lini \n 
         }
         getchar(); getchar();
     return 0;
