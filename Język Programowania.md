@@ -76,3 +76,21 @@ int main () {
 }
 ```
 ***
+
+## Ćwiczenie 5 - Oblicz pole i obwód kola z użyciem plika naglówkowego <math.h>
+
+```c
+#include <stdio.h>
+#include <math.h>
+int main () {
+    double r;
+    //const double pi=3,1415926;          //stały, M_PI zadeklarowane w pliku <math.h>
+    printf("Podaj promien kola: ");
+    scanf("%lf",&r);
+    printf("Pole kola o promieniu %.0lf wynosi %lf\n",r,M_PI*r*r);
+    printf("Obowd kola wynosi: %d * %lf * %lf = %lf ",2,M_PI,r, 2*M_PI*r );
+    getchar(); getchar ();
+    return 0;
+}
+```
+***
