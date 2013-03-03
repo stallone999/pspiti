@@ -44,6 +44,11 @@
 # Zadanie domowe: "gh-pages howto" sprawdzić jak to się robi...
 
 **Koniec zajęć** Piątek 01.03.2013 godz. 19.10
+***
+# Wykłady i ćwiczenia Niedziela 03.03.2013 godz. 8.30
+
+Rapsberry - komputer za 100zł.
+
 
 ## PSPI IT
 ======
