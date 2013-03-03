@@ -64,7 +64,21 @@ Wchodzimy w terminal:
 * git status - pokazuje jakie operacje przeprowadziliśmy
 * git commit  - m - dodajemy komentarz w zmieninym pliku
 * git push - wrzucenie na serwer poprawionego repozytorium Git
-* 
+* tar jxvf "nazwa spakowanego katalgu" - rozpakowuje archiwum 
+* ls -l - wyświetla listę plików w katalogu w którym jesteśmy wraz z atrybutami
+* chmod 755 "nazwa pliku" - zmiana atrybutów plika
+* cd "su~" - uzupełnianie i automatyczne przechodzenie do katalogu
+* x - programy muszą mieć ten atrybu aby można było je otworzyć
+* ./"nazwa programu" - uruchamia program
+
+## Kolejny blok po przerwie
+
+***Sublime Text*** - edytor textu
+
+Na YouTube filmiki do obsługi programu - ***POLECAM*** 
+Więcej na stronie [](www.tao.inf.ug.edu.pl).
+
+
 
 
 ## PSPI IT
