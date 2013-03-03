@@ -56,7 +56,7 @@ Wchodzimy w terminal:
  * ~/.ssh
  * ssh-keygen
 
-** Komendy w terminalu Linux:**
+*Komendy w terminalu Linux:*
 
 * git clone - i adres gita w SSH
 * git rm "nazwa pliku" - usuwanie plika
