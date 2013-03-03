@@ -89,7 +89,7 @@ Więcej na stronie [](www.tao.inf.ug.edu.pl).
 * padding: 100px 0px 0px 20px; - przesuwanie body po stronie
 
 [](http://learn.shayhowe.com/html-css/terminology-syntax-intro/) - CSS dla początkujących ***POLECAM***
-
+[](www.trello.com) - strona do zespołowego programowania
 
 ## PSPI IT
 ======
