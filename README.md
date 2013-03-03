@@ -49,6 +49,11 @@
 
 Rapsberry - komputer za 100zł.
 
+Wchodzimy w terminal:
+
+* wpisyjemy git clone git@github.com:stallone999/pspiti.git
+* 
+
 
 ## PSPI IT
 ======
