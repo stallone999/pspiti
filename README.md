@@ -89,6 +89,7 @@ Więcej na stronie [](www.tao.inf.ug.edu.pl).
 * padding: 100px 0px 0px 20px; - przesuwanie body po stronie
 
 [CSS3 dla poczatkujacych](http://learn.shayhowe.com/html-css/terminology-syntax-intro/) - CSS dla początkujących ***POLECAM***
+
 [Strona do projektowania w dyżych zespolach](www.trello.com) - strona do zespołowego programowania
 
 ## PSPI IT
