@@ -87,7 +87,9 @@ Więcej na stronie [](www.tao.inf.ug.edu.pl).
  
 * font-size: 28px; -  do zmiany rozmiaru czcionki, 28px to rozmiar czionki można go dowolnie zwiększać lub zmniejszać
 * padding: 100px 0px 0px 20px; - przesuwanie body po stronie
-* 
+
+[](http://learn.shayhowe.com/html-css/terminology-syntax-intro/) - CSS dla początkujących ***POLECAM***
+
 
 ## PSPI IT
 ======
