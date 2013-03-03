@@ -1,7 +1,0 @@
-# Języki Programowania - notatki z zajęć
-
-```C++
-int main() {
-  printf("Witaj przedmiocie");
-}
-```
