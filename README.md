@@ -52,6 +52,18 @@ Rapsberry - komputer za 100zł.
 Wchodzimy w terminal:
 
 * wpisyjemy git clone git@github.com:stallone999/pspiti.git
+* Jeżeli nie mamy klucza SSH
+ * ~/.ssh
+ * ssh-keygen
+
+** Komendy w terminalu Linux:**
+
+* git clone - i adres gita w SSH
+* git rm "nazwa pliku" - usuwanie plika
+* git mov "nazwa plika" - zmiana nazwy
+* git status - pokazuje jakie operacje przeprowadziliśmy
+* git commit  - m - dodajemy komentarz w zmieninym pliku
+* git push - wrzucenie na serwer poprawionego repozytorium Git
 * 
 
 
