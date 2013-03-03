@@ -79,17 +79,17 @@ Na YouTube filmiki do obsługi programu - ***POLECAM***
 Więcej na stronie [](www.tao.inf.ug.edu.pl).
 
 
-[](www.dabblet.com) - eksperyment z kolorami w CSS3
+[Strona CSS3](www.dabblet.com) - eksperyment z kolorami w CSS3
 
 -#fff - jeden z możliwych kolorów ***kolory można ustawiać poprzedzając go # zamiast całą nazwą np: yellow***
 
-[](www.kuler.com) - strona do zdefiniowania kolorów w formacie #0000
+[Definiowanie kolorów](www.kuler.com) - strona do zdefiniowania kolorów w formacie #0000
  
 * font-size: 28px; -  do zmiany rozmiaru czcionki, 28px to rozmiar czionki można go dowolnie zwiększać lub zmniejszać
 * padding: 100px 0px 0px 20px; - przesuwanie body po stronie
 
-[](http://learn.shayhowe.com/html-css/terminology-syntax-intro/) - CSS dla początkujących ***POLECAM***
-[](www.trello.com) - strona do zespołowego programowania
+[CSS3 dla poczatkujacych](http://learn.shayhowe.com/html-css/terminology-syntax-intro/) - CSS dla początkujących ***POLECAM***
+[Strona do projektowania w dyżych zespolach](www.trello.com) - strona do zespołowego programowania
 
 ## PSPI IT
 ======
