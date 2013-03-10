@@ -71,6 +71,7 @@ Wchodzimy w terminal:
 * x - programy muszą mieć ten atrybu aby można było je otworzyć
 * ./"nazwa programu" - uruchamia program
 
+
 ## Kolejny blok po przerwie
 
 ***Sublime Text*** - edytor textu
@@ -91,6 +92,19 @@ Więcej na stronie [](www.tao.inf.ug.edu.pl).
 [CSS3 dla poczatkujacych](http://learn.shayhowe.com/html-css/terminology-syntax-intro/) - CSS dla początkujących ***POLECAM***
 
 [Strona do projektowania w dyżych zespolach](www.trello.com) - strona do zespołowego programowania
+
+## Jak dodac dyski twarde, gdy odpalamy linuxa przez USB:
+
+**Krok pierwszy**
+
+***sudo mkdir /media/mint*** - wpisujemy w terminalu taka komende
+
+**Krok drugi**
+
+***sudo chown mint:mint /media/mint*** - nastepnie wpisujemy taka komende
+
+W taki oto sposob zostaly zamontowne obrazy naszych dyskow.
+
 
 ## PSPI IT
 ======
