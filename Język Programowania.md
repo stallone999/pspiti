@@ -242,3 +242,95 @@ int main() {
 }
 ```
 ***
+## Ćwiczenie 10 na srednia arytmetyczna
+
+```c
+# include <stdio.h>  // instrukcja preproceosra
+int main () {
+int n, i;
+double x, suma=0.0, srednia;
+do {                                                            // poczatek pierwszej petli
+    printf ("Podaj ilosc liczb (co najmniej 1): ");
+    scanf ("%d", &n);
+}
+while(n<1);              // koniec pierwszej petli
+for(i=1;i<=n;i++) {                 // poczatek petli for
+printf("Podaj %d liczbe:", i);
+scanf("%lf", &x);
+suma=suma+x;
+}                                   // koniec petli for
+    srednia = suma/n;
+    printf("Suma podanych %d liczb wynosi: %.3lf \n", n, suma);
+    printf("Srednia z podanych %d liczb wynosi: %.3lf", n,srednia);
+    getchar();
+    getchar();
+    return 0;
+}
+```
+***
+## Ćwiczenie 11 - Wypisz kwadraty i szeciany liczb naturalnych od 1 do liczby podanej
+przez użytkownika za pomoca petli for, while, do-while.
+
+```c
+#include <stdio.h>
+int main() {
+int i, n;
+    printf("Podaj liczbe:");
+    scanf("%d", &n);
+    for(i=1;i<=n;i++) {                         /*Pętla for*/
+    printf("%d,kwadraty:%d\t,szesciany:%d\t \n", i, i*i, i*i*i);
+    }
+
+    printf("\n");                               /*oddzielenie wyników*/
+
+    i=1;                                        /*Pętla while*/
+    while(i<=n) {
+    printf("%d,kwadraty:%d\t,szesciany:%d\t \n", i, i*i, i*i*i);
+    i++;
+    }
+
+    printf("\n");                               /*oddzielenie wyników*/
+
+    i=1;                                        /*Pętla do-while*/
+    do  {
+    printf("%d,kwadraty:%d\t,szesciany:%d\t \n", i, i*i, i*i*i);
+    i++;
+        }
+    while(i<=n);
+    getchar();
+    getchar();
+    return 0;
+}
+```
+***
+
+## Ćwiczenie 12 - Oblicz za pomoca petli for i while sume kwadratow liczb od 3 do 15.
+
+```c
+#include <stdio.h>
+int main() {
+int i, suma=0;
+    for(i=3;i<=15;i++) {    /*Pętla for*/
+        suma=suma+(i*i);
+    }
+    printf("%d \n",suma);
+
+    printf("\n");       /*Rozdzielenie wyników */
+
+
+    i=3;            /*Pętla while; w tym miejscu ustawiamy i */
+    suma=0;         /*wyzerowanie sumy, ponieważ nie jest już =0*/
+    while(i<=15)    {
+    suma=suma+(i*i);
+    i++;
+    }
+    printf("%d \n",suma);
+    getchar();
+    return 0;
+}
+```
+***
+
+## Ćwiczenie 13 - Wypisz sinusy i cosinusy katów 0...180 stopni z krokiem co 30 stopni
+za pomoca petli for.
+
