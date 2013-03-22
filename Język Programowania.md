@@ -268,8 +268,7 @@ suma=suma+x;
 }
 ```
 ***
-## Ćwiczenie 11 - Wypisz kwadraty i szeciany liczb naturalnych od 1 do liczby podanej
-przez użytkownika za pomoca petli for, while, do-while.
+## Ćwiczenie 11 - Wypisz kwadraty i szeciany liczb naturalnych od 1 do liczby podanej przez użytkownika za pomoca petli for, while, do-while.
 
 ```c
 #include <stdio.h>
@@ -331,8 +330,7 @@ int i, suma=0;
 ```
 ***
 
-## Ćwiczenie 13 - Wypisz sinusy i cosinusy katów 0...180 stopni z krokiem co 30 stopni
-za pomoca petli for.
+## Ćwiczenie 13 - Wypisz sinusy i cosinusy katów 0...180 stopni z krokiem co 30 stopni za pomoca petli for.
 
 ```c
 #include <stdio.h>
