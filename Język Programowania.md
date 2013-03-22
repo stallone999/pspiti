@@ -361,3 +361,17 @@ return 0;
 ```
 ***
 
+## Ćwiczenie 14 - Wypisz znaki od 'a' do 'k' wraz z ich kodami ASCII (dziesietnie, szesnatkowo) w kolejnosci rosnacej i malejacej za pomoca petli FOR.
+
+```c
+#include <stdio.h>
+int main () {
+    char i;
+    for (i='a'; i<='k'; i++) {
+        printf ("Litera:%c, znak ASCII:%3d, szesnastkowo: %2x\n",i,i,i); // %c - wyświetla jako litera, %3d - w kodzie ASCII, %2x - w kodzie szesnastkowym
+        }
+        getchar();
+        return 0;
+}
+    
+```
