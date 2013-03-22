@@ -334,3 +334,32 @@ int i, suma=0;
 ## Ćwiczenie 13 - Wypisz sinusy i cosinusy katów 0...180 stopni z krokiem co 30 stopni
 za pomoca petli for.
 
+```c
+#include <stdio.h>
+#include <math.h>
+int main() {
+    double x;
+    
+  printf ("Zadanie wykonane w petli FOR:\n\n");
+  
+    for (x=0;x<=180;x=x+30) {
+        printf("sin(%.0lf)= %lf \n",x,sin(x*M_PI/180));
+        printf("cos(%.0lf)= %lf \n\n",x ,cos(x*M_PI/180));
+}
+
+printf ("Zadanie wykonane w petli do-while:\n\n");
+
+x=0;
+do {
+    printf("sin(%.0lf)= %lf \n",x,sin(x*M_PI/180));
+    printf("cos(%.0lf)= %lf \n\n",x ,cos(x*M_PI/180));
+    x=x+30;
+}
+while (x<=180);
+
+getchar();
+return 0;
+}
+```
+***
+
