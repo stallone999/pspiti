@@ -375,3 +375,41 @@ int main () {
 }
     
 ```
+***
+
+## Ćwiczenie 15 - Napisz petle WHILE wypisujaca na ekran znaki podane przez uzytkownika, az do napotkania znaku 'x'.
+
+```c
+#include<stdio.h>
+
+int main () {
+    char c;
+    
+    while ((c=getchar())!='x'&&c!='X') {     
+    putchar(c);
+}
+getchar();
+return 0;
+}
+```
+
+***
+
+## Cwiczenie 16 - Napisz program wyswietlajacy tabliczke mnozenia do 13 (uzyj petli !)
+
+```c
+#include <stdio.h> 
+int main() { 
+int i,j; 
+for(i=1;i<=20;i++)  { 
+    for(j=1;j<=20;j++)  {
+        printf("%3d ",j*i); 
+                        }
+    putchar('\n'); 
+                    } 
+getchar();
+return 0;
+}
+```
+
+***
