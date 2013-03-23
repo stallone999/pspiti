@@ -495,3 +495,38 @@ return 0;
 ***
 
 ## Ćwiczenie 19 - Wyswietl 20 roznych (tj. bez permutacji liczb) trójek pitagorejskich, tzn takich liczb calkowitych dodatnich a,b,c, że a^2 + b^2 = c^2.
+
+```c
+#include <stdio.h>
+int main() {
+    int n;
+    int k;
+    double zero=0.0;
+    double max=-1/zero;
+    double min=1/zero;
+    double x;
+    
+    printf("Podaj ilosc liczb conajmniej 2: ");
+    scanf("%d",&n);
+    
+    for (k=1;k<=n;k++) {
+        printf("\nPodajliczbe nr %d: ", k);
+        scanf("%lf",&x);
+                        if (x<min)
+                                   min=x;
+                                   
+                        if (x>max)
+                             max=x;
+                             }  
+                        printf("\nNajwieksza zmiennoprzecinkowa: %.2lf\n\n",max);
+                        printf("Najmniejsza zmiennoprzecinkowa: %.2lf",min);
+                       
+    getchar();                    
+    getchar();
+    return 0;
+}
+                        
+```
+***
+
+## Cwiczenie 20  - Napisz program wypisujacy slownie dzien tygodnia, jezeli nr dnia tygodnia jest znany jako liczba (np.3). Użyj instrukcji switch-case.
