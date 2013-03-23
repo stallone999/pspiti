@@ -530,3 +530,44 @@ int main() {
 ***
 
 ## Cwiczenie 20  - Napisz program wypisujacy slownie dzien tygodnia, jezeli nr dnia tygodnia jest znany jako liczba (np.3). Użyj instrukcji switch-case.
+
+```c
+#include<stdio.h>
+#include<iostream.h>
+
+int main() {
+int liczba;
+
+printf("Wpisz liczbe aby wyswietlic dzien tygodnia: ");
+scanf("%d",&liczba);
+
+switch(liczba) {
+case 1: 
+printf("\nPoniedzialek!.");
+break; 
+case 2: 
+printf("\nWtorek!.");
+break;
+case 3:
+printf("\nSroda!.");
+break;
+case 4:
+printf("\nCzwartek!.");
+break;
+case 5:
+printf("\nPiatek!.");
+break;
+case 6:
+printf("\nSobota!.");
+break;
+case 7:
+printf("\nNiedziela!.");
+break;
+default: printf("Nie ma takiego dnia tygodnia … ");
+break;
+}
+getchar();
+getchar();
+return 0;
+}
+```
