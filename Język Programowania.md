@@ -469,3 +469,29 @@ int main() {
 ***
 
 ## Cwiczenie 18  - Znajdz liczby o tej wlasnosci, ze suma dzielnikow wlasciwych liczby jest rowna zadanej liczbie, np 6=1+2+3. Sa to tak zwane liczby doskonale. 
+
+```c
+#include <stdio.h>
+int main() {
+    int x,z, suma;
+     for (z=2;z<10000;z++) {
+     suma=0;
+      for (x=1;x<z;x++) {  
+         if (z%x==0){
+              suma=suma+x;
+              }
+              }
+         if (suma==z) {
+              printf("Liczba doskonala=  %d\n\n",suma);
+}          
+}
+
+getchar();
+getchar();
+return 0;
+
+}
+```
+***
+
+## Ćwiczenie 19 - Wyswietl 20 roznych (tj. bez permutacji liczb) trójek pitagorejskich, tzn takich liczb calkowitych dodatnich a,b,c, że a^2 + b^2 = c^2.
