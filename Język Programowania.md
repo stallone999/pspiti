@@ -420,3 +420,19 @@ return 0;
 ```
 
 ***
+
+## Cwiczenie 17 - Napisz program liczacy pierwiastki trojmianu kwadratowego: a*x^2+b*x+c=0.
+
+```c
+#include <stdio.h> 
+#include <math.h>
+int main() {
+    double a,b,c,delta;
+    printf("Podaj a,b,c odzielajac je spacja:");
+    scanf("%fl %fl %fl",&a,&b,&c);
+    if (delta>0) {
+                 delta=b*b
+    getchar();
+    return 0;
+}
+```
