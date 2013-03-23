@@ -427,12 +427,45 @@ return 0;
 #include <stdio.h> 
 #include <math.h>
 int main() {
-    double a,b,c,delta;
-    printf("Podaj a,b,c odzielajac je spacja:");
-    scanf("%fl %fl %fl",&a,&b,&c);
-    if (delta>0) {
-                 delta=b*b
+    double a,b,c,delta,x1,x2;
+    printf("Podaj a:");
+    scanf("%lf",&a);
+    printf("Podaj b:");
+    scanf("%lf",&b);
+    printf("Podaj c:");
+    scanf("%lf",&c);
+    delta=b*b-4*a*c;
+    printf("Delta= %.0lf*%.0lf-%d*%.0lf*%.0lf= %.3lf\n\n",b,b,4,a,c,b*b-4*a*c);
+    
+   if (delta>0) {
+                x1=(-b-sqrt(delta))/(2*a);
+                x2=(-b+sqrt(delta))/(2*a);
+                printf("x1 = %.2lf \n",x1);
+                printf("x2 = %.2lf\n\n", x2);
+                printf("Delta wieksza od zero!!!");
+               
+    
+}
+    else if (delta==0) {
+                x1=x2=(-b)/(2*a);
+                printf("x1 = %.0lf \n",x1);
+                printf("x2 = %.0lf\n\n", x2);
+                printf("Delta rowna sie zero!!");
+}
+  
+   else {
+           printf("Blad nie ma rozwiazania");
+}
+
+                   
+                 
+                 
+    getchar();
     getchar();
     return 0;
 }
 ```
+
+***
+
+## Cwiczenie 18  - Znajdz liczby o tej wlasnosci, ze suma dzielnikow wlasciwych liczby jest rowna zadanej liczbie, np 6=1+2+3. Sa to tak zwane liczby doskonale. 
