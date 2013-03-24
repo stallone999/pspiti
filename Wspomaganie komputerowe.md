@@ -89,7 +89,7 @@ znak__mantys_wykladnik
 Matysa - skończona liczba liczb
 
 Aby zmienić dokladnosc wyswietlania liczb w MatLab.
-File->Preferences->Window Command-> (***short*** zminiamy na ***long***)
+File->Preferences->Window Command-> (**short** zminiamy na ***long***)
 
 W Matlabie można przeciazac oberatory.
 
