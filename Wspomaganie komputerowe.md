@@ -48,8 +48,6 @@
 * max(x) - najwieksza wartosc w wektorze
 * roots() - obliczanie pierwiasków
 
-Znaki specjalne:
-
 * . -kropka
 * , -przecinek znak oddzielajacy w strukrze, kilka operacji w jednej linijce:
   >> x=2,y=3
@@ -62,7 +60,18 @@ Znaki specjalne:
 * () - nawiasy okragle, zawieraja indeksy elementu macierzy
 * [] - nawiasy kwadratowe, tworza tablice liczb lub lancuchów znaków.
 * xlabel('funkcja x y') - podisywnie osi x, gdy wstawimy y podpisze y.
-* 
+* % - oznacza poczatek komentarza
+* %{ - zawiera blok linii komentarza
+* ... - wielokropek nastepna linia jest kontynuacja natepnej linii
+* @ - tworzy uchwyt funkcji np @nazwa
+* \ - ukosnik lewy macierzowy operator matematyczny oraz używany do generacji greckich liter i symbolo matematycznych w gafice
+* disp - drukuje wyniki
+* clc - usówa wszystko z okna Command Window
+* clear all - usuówa wszytskie zmienne
+* close all - zamyka wszystkie okienka graficzne jeżeli byly pootwierane
+* ctr+c - zatrzymuje zadanie gdy sie zapetli
+* length(x) - dlugosc elementa wektora
+* linespace() - nastepujace polecenie utworzy wektor o n rownoleglych wartosciach np. x=linspace(x0.xk.n)
 
 
 Możemy sami definiować zmienne
@@ -88,3 +97,57 @@ iloczyn skalarny - x1y1+x2y2+x3y3
 
 W MATLABie nie piszemy programów tylko ***skrypt***.
 Matlab jest interpreterem polecen nie potrzebuje kompilatora
+Skrypty mozna uruchmiać wpisujac ich nazwe w *Window Command*
+
+Aby zlokalizować pierwistek potrzeba kilka krokó:
+f(a)f(b)<0
+1. Lokalizacja
+2. metoda numeryczna
+  a) bisekcja
+
+    x1=(b-a)/2 /|f(x)|<E
+  
+    f(a)f(xi)>0
+    f(xi)f(b)<0
+    a=x2
+    
+  b) metoda iteracji prostej
+  
+    f(x)=0
+    x=g(x)
+    xn+1=y(xn)
+    x2=xp
+    
+  c) regula falsi 
+  
+    patrzymy w kórym przedziale jest pierwiastek i puszczam sieczna
+    
+  d) Metoda sieczna
+  
+  e) Metoda Newtona-Raphsona - styczna
+  
+    f(x+h)=f(x)+1/1!hf'(x)+1/2!hf''(x)...
+    f(x+x1-x)=f(x)+hf'(x)=0
+    0=f(x+x1-x)=f(x)+hf'(x) --> x2=x-(f(x)/f'(x))
+    
+  
+  ## Petla w Matlab'ie
+  
+  Petla FOR: 
+  
+    for s=0.0:0.01:1.0
+        disp(s)
+    end
+
+  Warunek IF:
+  
+    r=5
+    c=5
+    
+    if r == c
+      disp('sylwek');
+      else
+         disp('zonk');
+      end
+
+
