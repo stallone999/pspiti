@@ -107,7 +107,7 @@ f(a)f(b)<0
 
 2. metoda numeryczna
 
-  a) bisekcja
+a) bisekcja
 
     x1=(b-a)/2 /|f(x)|<E
   
@@ -117,7 +117,7 @@ f(a)f(b)<0
     
     a=x2
     
-  b) metoda iteracji prostej
+b) metoda iteracji prostej
   
     f(x)=0
     
@@ -127,13 +127,13 @@ f(a)f(b)<0
     
     x2=xp
     
-  c) regula falsi 
+c) regula falsi 
   
     patrzymy w kórym przedziale jest pierwiastek i puszczam sieczna
     
-  d) Metoda sieczna
+d) Metoda sieczna
   
-  e) Metoda Newtona-Raphsona - styczna
+e) Metoda Newtona-Raphsona - styczna
   
     f(x+h)=f(x)+1/1!hf'(x)+1/2!hf''(x)...
     
