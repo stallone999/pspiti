@@ -99,7 +99,8 @@ W MATLABie nie piszemy programów tylko ***skrypt***.
 Matlab jest interpreterem polecen nie potrzebuje kompilatora
 Skrypty mozna uruchmiać wpisujac ich nazwe w *Window Command*
 
-Aby zlokalizować pierwistek potrzeba kilka krokó:
+Aby zlokalizować pierwistek potrzeba kilka kroków:
+
 f(a)f(b)<0
 
 1. Lokalizacja
@@ -111,14 +112,19 @@ f(a)f(b)<0
     x1=(b-a)/2 /|f(x)|<E
   
     f(a)f(xi)>0
+    
     f(xi)f(b)<0
+    
     a=x2
     
   b) metoda iteracji prostej
   
     f(x)=0
+    
     x=g(x)
+    
     xn+1=y(xn)
+    
     x2=xp
     
   c) regula falsi 
@@ -130,8 +136,11 @@ f(a)f(b)<0
   e) Metoda Newtona-Raphsona - styczna
   
     f(x+h)=f(x)+1/1!hf'(x)+1/2!hf''(x)...
+    
     f(x+x1-x)=f(x)+hf'(x)=0
+    
     0=f(x+x1-x)=f(x)+hf'(x) --> x2=x-(f(x)/f'(x))
+    
     
   
 ## Petla w Matlab'ie
