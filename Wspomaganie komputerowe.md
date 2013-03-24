@@ -101,8 +101,11 @@ Skrypty mozna uruchmiać wpisujac ich nazwe w *Window Command*
 
 Aby zlokalizować pierwistek potrzeba kilka krokó:
 f(a)f(b)<0
+
 1. Lokalizacja
+
 2. metoda numeryczna
+
   a) bisekcja
 
     x1=(b-a)/2 /|f(x)|<E
@@ -131,7 +134,7 @@ f(a)f(b)<0
     0=f(x+x1-x)=f(x)+hf'(x) --> x2=x-(f(x)/f'(x))
     
   
-  ## Petla w Matlab'ie
+## Petla w Matlab'ie
   
   Petla FOR: 
   
