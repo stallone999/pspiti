@@ -18,6 +18,7 @@
 * sqrt(_argument_) - obliczanie pierwiastka
 * sin(pi) -  sinus pi
 * sind(30) - pokazuje w stopniach
+* asin() - funkcja odworotna
 * [ np 1 2 3 ] - definiowanie vectora, zamiast spacji można sotosować przecinek. Vector wierszowy
 * [; ; ;] - vector kolumnowy gdy odzielamy arguenty srednikiem ;
 * 1:3 - też wygeneruje vector, sluzy bardziej do ciagów
@@ -30,6 +31,37 @@
   >> y=sin(x);
   >> plot(x,y,'o')  ***przykladowa procedura rysowania funkcji
 * ezplot('x^2+y^2=4') - narysuje nam kolo o promieniu 4
+* clear('zmienna') - usówa zmienna z pamieci
+* ' - transpozycja w obliczeniach algebry liniowej
+* .* - monożenie wektora i poswstaje wetor. operacje z kropkami licznie element po elemencie. Tak samo można przeprowadzać inne dzialania matemayczne.
+   x=[1 2 3 ]
+  x =
+     1     2     3
+  >> y=[4 5 6]
+  y =
+     4     5     6
+  >> x.*y
+  ans =
+     4    10    18
+* factorial(np10)  - oblicza silnie
+* primes(np120) - rozklad na lczby pierwsze
+* max(x) - najwieksza wartosc w wektorze
+* roots() - obliczanie pierwiasków
+
+Znaki specjalne:
+
+* . -kropka
+* , -przecinek znak oddzielajacy w strukrze, kilka operacji w jednej linijce:
+  >> x=2,y=3
+  x =
+     2
+  y =
+     3
+* ; - srednik umieszczany na koncu lini wstrzymuje wydruk
+* : -dwukropek separator w poleceniu tworzenia wektora
+* () - nawiasy okragle, zawieraja indeksy elementu macierzy
+* [] - nawiasy kwadratowe, tworza tablice liczb lub lancuchów znaków.
+* xlabel('funkcja x y') - podisywnie osi x, gdy wstawimy y podpisze y.
 * 
 
 
@@ -50,3 +82,9 @@ Matysa - skończona liczba liczb
 Aby zmienić dokladnosc wyswietlania liczb w MatLab.
 File->Preferences->Window Command-> (***short*** zminiamy na ***long***)
 
+W Matlabie można przeciazac oberatory.
+
+iloczyn skalarny - x1y1+x2y2+x3y3
+
+W MATLABie nie piszemy programów tylko ***skrypt***.
+Matlab jest interpreterem polecen nie potrzebuje kompilatora
