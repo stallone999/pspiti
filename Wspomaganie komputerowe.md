@@ -23,6 +23,15 @@
 * 1:3 - też wygeneruje vector, sluzy bardziej do ciagów
 * ; - gdy odajemy go na koncu obliczen wsytrzymuje wydruk
 * plot(x,y) - otwiera okno do rysowania funkcji, okno graficzne
+* plot(x,y,'o') - rysowanie za pomoca kólek
+* plot(x,y,'o-') - kólka polaczone linia
+* plot(x,y,'g-o',x,y1,'r-')  - narysuje dwie funkcje nachodzace sie na siebie kazda w innym kolorze
+* >> x=-2*pi:0.1:2*pi;
+  >> y=sin(x);
+  >> plot(x,y,'o')  ***przykladowa procedura rysowania funkcji
+* ezplot('x^2+y^2=4') - narysuje nam kolo o promieniu 4
+* 
+
 
 Możemy sami definiować zmienne
 
