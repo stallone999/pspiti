@@ -571,3 +571,51 @@ getchar();
 return 0;
 }
 ```
+### FUNKCJE
+***
+
+## Czwiczenie 21 - Napisz funkcje obliczajaca pole kuli o podanym promieniu
+
+```c
+#include<stdio.h>
+#include<math.h>
+
+double pole(double r) {
+       return 4*M_PI*r*r;
+       }
+       int main () { double r;
+           printf("Podaj promien kuli :");
+           scanf("%lf",&r);
+           printf("\n\n Pole kuli wynosi: %lf",4*M_PI*r*r);
+           getchar();
+           getchar();
+       return 0;
+       }
+```
+***
+
+## Cwiczenie 22 - Napisz funkcje wartBezwzgledna zwracajaca wartosc bezwzgledna z liczby calkowitej
+
+```c
+#include <stdio.h>
+
+int wartBezwzgledna(int x){
+if (x>=0) return x;
+else return -x; }
+
+int main(){
+    int x;
+    printf ("Podaj liczbe calkowita:");
+    scanf ("%d",&x);
+  
+    printf("\nWartosc bezwzgledna wynosi: %d",wartBezwzgledna(x));
+    getchar();
+    getchar();
+}
+```
+***
+
+## Cwiczenie 23 - Napisz funkcje obliczajca a^n dla n E N
+
+```c
+
