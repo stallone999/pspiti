@@ -679,3 +679,50 @@ int main() {
 ```
 
 ***
+
+## Cwiczenie 25  - Rozbudowany algorytm a do n o dzialanie na ujemnych potegach.
+
+```c
+#include <stdio.h>
+#include <math.h>
+
+double petla(double a, int n){
+       double p=1.0, q=a; 
+       int i=n, minus=0;
+       
+       if(i<0){
+       minus=1;
+       i=-i;
+       }
+            while(i>0){
+                       if(i%2!=0)
+                       p=p*q;
+                        q=q*q;
+                         i=i/2; 
+                          }
+                           if(minus==0)
+                           return p;
+                           else 
+                            return (1.0/p);
+                             }
+       
+       
+int main() {
+    int n;
+  
+    double a,p;
+    printf ("Podaj a: ");
+    scanf("%lf",&a);
+    printf("\nPodaj n: ");
+    scanf("%d",&n);
+    printf(" \nWartosc a=%.3lf do potegi n=%d wynosi p=%.10lf.",a,n,petla(a,n));
+    getchar();
+    getchar();
+   
+    
+}
+```
+
+***
+
+
