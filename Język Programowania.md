@@ -618,4 +618,64 @@ int main(){
 ## Cwiczenie 23 - Napisz funkcje obliczajca a^n dla n E N
 
 ```c
+#include<stdio.h>
 
+double funkcja(double a, int n){
+   int i;
+   double x=1;
+   for(i=1;i<=n;i++)
+   x=x*a;
+   return x;
+}
+int main (){
+    int i,n;
+    double x;
+    double a;
+    printf("Podaj liczbe a:");
+    scanf("%lf",&a);
+    
+    printf("\nPodaj n: ");
+    scanf("%d",&n);
+    x=funkcja(a,n);
+    printf("\nLiczba a:%0.2lf podniesiona do potegi n:%d wynosi: %0.2lf ",a,n,x);
+    getchar();
+    getchar();
+    
+    return 0;
+}
+```
+***
+
+## Cwiczenie 24 - Napisz funkcje obliczajaca pierwiastek z a algorytmem Herona.
+
+```c
+
+#include <stdio.h>
+#include <math.h>
+
+double heron(double a){
+    double x=1, eps=1e-15;
+    do{ 
+        x=(x+a/x)*0.5;}
+    while(fabs(x-a/x)>eps*x);
+    return x;
+}
+
+int main() {
+    double a,x,y, blad;
+    printf ("Podaj liczbe: ");
+    scanf("%lf",&a);
+    x=heron(a);
+    y=sqrt(a);
+    blad=(x-y)/y;
+    printf("\nMoje obliczenie wynioslo x=%.15lf, \n\nSystemowe obliczenie y=%.15lf, \n\nBlad wzgledny wynosi: %.15
+    le", x,y,blad);
+    getchar();
+    getchar();
+    getchar();
+    return 0;
+}
+    
+```
+
+***
