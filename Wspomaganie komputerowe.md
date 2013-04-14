@@ -205,3 +205,11 @@ Operacje:
         element * element
         
 Te operacje można realizować przez petle.
+
+# Cwiczenia
+
+### Cwiczenie 2 Operacje na liczbach 0blicz:
+
+      x=(-log(2.4)+sqrt(sin(4)-4*exp(3.4)))/(2*pi)
+
+      x=sqrt(4*exp(12.4))/(2*tan(pi*0.47))
