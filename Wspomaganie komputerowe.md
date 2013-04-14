@@ -215,7 +215,7 @@ Te operacje można realizować przez petle.
       x=sqrt(4*exp(12.4))/(2*tan(pi*0.47))
       
 ***
-## Sprawdzanie numeryczne tożsamosci trygonoetrycznej dla kilku wartosci katów alfa i beta np. pi/2, 0.366pi itp
+### Sprawdzanie numeryczne tożsamosci trygonoetrycznej dla kilku wartosci katów alfa i beta np. pi/2, 0.366pi itp
 
        w=[]
     for b=0:0.1:1
@@ -225,4 +225,9 @@ Te operacje można realizować przez petle.
       w=[w,c]
     end
     w
+***
+### Zadanie z cos(alfa)+cos(beta)
 
+    alfa=pi/2
+    beta=0.366*pi
+    z=(cos(alfa)+cos(beta))-(2*cos(0.5*(alfa+beta)))*(cos(0.5*(alfa-beta)))
