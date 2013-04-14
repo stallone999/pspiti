@@ -252,6 +252,28 @@ Te operacje można realizować przez petle.
     e=[1:10]
     e=[1:.1:10]
 
+***
+### Zadanie - Dostep do elementów
 
+### Przyklad a)
 
+    a=[1:5]
+    a(1),a(2)
+    a(10)
+    a(10)=123%co się stanie, przecież a ma rozmiar 5 
+    Program pokaż blad bo tablica jest za mala, trzeba zamiast a=[1:5] wpisać a=[1:10]
+    
+### Przyklad b)
+
+    b=[2:2:20]
+    b/2
+    2\b
+    c=[1:10]
+    b/c
+    b./c
+    
+### Zadanie - Macierze
+    
+
+    
 
