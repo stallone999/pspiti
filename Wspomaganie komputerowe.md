@@ -163,3 +163,45 @@ e) Metoda Newtona-Raphsona - styczna
       end
 
 
+# Zajecia 14.04.2013 mala powtórka
+
+### Zmienne zapisywane w systemie podwójnej precyzji:
+
+* realmax
+* realmin
+* eps 1+eps>1
+
+Skalarne a=1
+
+Wektory 
+        x=[1 2 3]
+        y=[1;2;3]
+Macierze 
+        [1,2;2,3]
+
+Polecenia:
+
+        who wyswietla informcje o zmiennych
+        whos
+        clear all - czsci tabele
+        
+### Obliczenia numeryczne(symboliczne)
+
+      okna:
+        komendy
+        grafika
+        edytor dzielimy na skrypt i funkcje
+
+Skrypty:
+        Możemy tworzyć petle for, if, while
+        Obliczać sumowania
+
+Operacje:
+      Algebra liniowa
+        dodawnia +
+        odejmowania -
+        mnożenia *
+      Tablicowe(kropkowe)
+        element * element
+        
+Te operacje można realizować przez petle.
