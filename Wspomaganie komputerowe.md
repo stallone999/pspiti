@@ -272,7 +272,33 @@ Te operacje można realizować przez petle.
     b/c
     b./c
     
-### Zadanie - Macierze
+### Zadanie - Interpolacja
+    
+    x=[1,2,3]
+    y=[3.20,3.29,3.32]
+        
+    p=polyfit(x,y,2)
+    x1=1:0.1:3;
+    y1=polyval(p,x1)
+    plot(x,y,'o',x1,y1,'--')
+    
+### Aproksymacja 
+
+    x=[1,2,3]
+    y=[3.20,3.29,3.32]
+        
+    p=polyfit(x,y,2)
+    p1=polyfit(x,y,1)
+    x1=1:0.1:3;
+    y1=polyval(p,x1)
+    y2=polyval(p1,x1)
+    plot(x,y,'o',x1,y1,'--',x1,y2)
+
+
+
+
+
+
     
 
     
