@@ -231,3 +231,27 @@ Te operacje można realizować przez petle.
     alfa=pi/2
     beta=0.366*pi
     z=(cos(alfa)+cos(beta))-(2*cos(0.5*(alfa+beta)))*(cos(0.5*(alfa-beta)))
+    
+***
+
+### Generowanie wektorów, przetestuj wyrżenia:
+
+    a=[1 2 3];
+    b=[1,2,3];
+    c=[1;2;3];
+    y=b'
+    c==y
+    c(1)=5
+    b(2)=6
+    clc
+    
+### Przykład b)
+    
+    c==y
+    d=[-1.3*sin(sqrt(5))*(log(6)-5)]
+    e=[1:10]
+    e=[1:.1:10]
+
+
+
+
