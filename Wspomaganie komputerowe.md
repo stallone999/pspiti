@@ -295,6 +295,85 @@ Te operacje można realizować przez petle.
     plot(x,y,'o',x1,y1,'--',x1,y2)
 
 
+## Macierze
+
+      A=[1 2 3;4 5 6;7 8 9]
+      B=A'
+      A(2,3)
+      C=[1:10;11:20;21:30;31:40]
+      C(1:2,1:4)
+      C(2:3,1:1)
+      C(1:1,5:8)
+      D=[C,[1;2;3;4]]
+      Z=zeros(2,4)
+      
+      
+      x=rand(4,4)
+      F=5*ones(3,3)
+      F=F*2
+      F=F/5
+      G=4*ones(3,3)
+      G/F
+      G./F
+      G*F
+      G.*F
+      
+### Operacje macierzowe
+
+    z=rand(4,4)
+    det(z)
+    sum(z)
+    min(z)
+    max(z)
+    x=inv(z)
+    x*z
+    diag(z)
+    rank(z)
+    
+### Uklad równan liniowych
+
+    a=[1 -4 3 5;3 1 -2 7;2 1 1 8;-1 -2 -5 -2];
+    b=[-7;14;5;4];
+    [x]=[a]\[b]
+  
+### Liczby zespolone
+
+    a=4+3i
+    b=5+2i
+    a+b;a-b;a*b;a/b;
+    real(a)
+    imag(b)
+    conj(a)
+    abs(a)
+    angle(a)
+    c=5*(cos(0.6435)+i*sin(0.6435))
+    d=5*exp(i*0.6435)
+    
+#Wykresy
+
+### Dwuwymiarowy wykres
+
+    x=-10:.005:40;
+    y=[1.5*cos(x)+4*exp(-.01*x).*cos(x)+exp(.07*x).*sin(3*x)];
+    plot(x,y)
+    
+### Wykres3D
+
+    [x,y]=meshgrid(-3:.12:3);
+    z=sin(x).*exp(y)+x.*y;
+    mesh(x,y,z);
+    
+#Funkje
+
+### Otwieranie funkcji z zapisanej w skrypcie w WindowCommand
+
+    function[val]=kwadratowa(a,b,c,x)
+    
+    val=a*x.^2+b*x+c;
+    end
+    
+Funkcje wywolujemy poleceniem>> kwadratowa(1,1,1[1 2 3])
+
 
 
 
