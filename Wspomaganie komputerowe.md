@@ -213,3 +213,16 @@ Te operacje można realizować przez petle.
       x=(-log(2.4)+sqrt(sin(4)-4*exp(3.4)))/(2*pi)
 
       x=sqrt(4*exp(12.4))/(2*tan(pi*0.47))
+      
+***
+## Sprawdzanie numeryczne tożsamosci trygonoetrycznej dla kilku wartosci katów alfa i beta np. pi/2, 0.366pi itp
+
+       w=[]
+    for b=0:0.1:1
+       disp(b);
+
+      c= cos(b).^2+sin(b).^2-1;
+      w=[w,c]
+    end
+    w
+
