@@ -110,3 +110,14 @@ W taki oto sposob zostaly zamontowne obrazy naszych dyskow.
 ======
 
 ###Technologia Internetowa notatki z przedmiotu.
+
+## Wykłady 10.05.2013
+
+### Zalicznie
+
+Markdown z plikiem ***Readme*** na ocene 3
+Jeżeli dodamy ***spis treści***  to wtedy na ocenę 3+
+Github pages - na ocene 5
+
+Google analytics
+
