@@ -375,9 +375,59 @@ Te operacje można realizować przez petle.
 Funkcje wywolujemy poleceniem>> kwadratowa(1,1,1[1 2 3])
 
 
+# Wyklady 12.05.2013
+
+## Octave-zastepczy program MatLAb
+
+Wektory w Matlabie moga byc kolumnowe lub wierszowe.
+
+* [1,2,3,4] - wierszowe
+* [1;2;3;4] - kolumnowe
+* ' - transpozycja(z kolumnowego na wierszowy i odwrotnie)
+* Operacja na nich moga byc algebraiczne i kropkowe(element po elemencie)
+
+
+* Dodawanie, odejmowanie, mnożenie(przez wiersz*kolumne) 2*a; 
+* Iloczyn skalarny-wiersz dzielony przez kolumne
+
+* Opracje logiczne
+* Dzialanie funkcji na "wektor"(jako tablica)
+* :-pozwala nam konstruowac wetory przez jakby ukryta petle. Seria liczb, seria z krokiem
+* dostep do elementow "c(7)"
+* Operacje kropkowe
+
+* Interpolacja - linia przechodzi przez wszystkie punkty
+* Może być wielomianowa - funkcja "polyval(a,7)"
+* polyfit(x,y,n-stopien wielomianu, ktory chcemy interpolowac albo aproksymowac)  
+ 
+## Program Wolfram Mathematica
+
+### Koncentracja na obliczeniach symbolicznych
+
+* Sqrt[]
+* N[] - funkcje
+* Zamaist znaku mnozenia wystarczy spacja np: 2 2 zamiast 2*2
+* .- stawiajac kropke zmieniamy charakter wyrazenia na numeryczny
+* Solve[x^2-2x-10==0] - Solve-rozwiaz, podwojny znak rownosci wskazuje na nawiadoma ==,
+  wynik przedstawia sie nastepujaco {{x -> 1 - Sqrt[11]}, {x -> 1 + Sqrt[11]}}
+* { - lista, elementy listy oddzielone sa przecinkami
+* regula podstawienia
+* N[Pi,100] - numercznie przedstawi liczbe pi ze 100 miejscem po przecinku
+* ; - wstawiany na koncu nie wyswietla tego dzilania
+* wyn[[1, 2, 2]] - wejscie do wnetrza listy potrzebne 2 nawiasy kwadratowe [[]]
+* (* dowolny tekst *) - w taki sposob dodajemy komentarz
+* /. - podstawianie np za y (y^2 + 3 y + 2 x /. y -> 1.2608695652173911`) regula podstawienia /.y
+* m.m - mnozenie macierzowe
+* f[x_] - funkcja 
+* Simplify[] - funkcja uproszczajaca wyswietlanie wyniku
+* Expand[] - rozszerz wynik
+* Factor[] - wylacz wspolny czynnik przed nawias
+* Plot[] - Plot[x^2, {x, -1, 1}] rysowanie funkcji w postaci graficznej
 
 
 
+
+ - 
     
 
     
