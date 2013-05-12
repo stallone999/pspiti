@@ -423,6 +423,8 @@ Wektory w Matlabie moga byc kolumnowe lub wierszowe.
 * Expand[] - rozszerz wynik
 * Factor[] - wylacz wspolny czynnik przed nawias
 * Plot[] - Plot[x^2, {x, -1, 1}] rysowanie funkcji w postaci graficznej
+* Integrate - polecenie do obliczania calek przyklad= Integrate[t^3,{t,0,5}]
+* Limit[Sin[x]/x, x -> 0] // N - funkcja do wyznaczania granicy
 
 
 
